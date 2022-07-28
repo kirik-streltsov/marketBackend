@@ -1,4 +1,4 @@
-package com.happycoder.marketbackend.models;
+package com.happycoder.marketbackend.product;
 
 public class Product {
     private final String name;

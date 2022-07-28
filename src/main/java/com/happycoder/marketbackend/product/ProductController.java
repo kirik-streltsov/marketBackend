@@ -1,6 +1,6 @@
-package com.happycoder.marketbackend.controllers;
+package com.happycoder.marketbackend.product;
 
-import com.happycoder.marketbackend.models.Product;
+import com.happycoder.marketbackend.product.Product;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
