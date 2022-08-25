@@ -20,10 +20,10 @@ public class Order {
     private Long id;
 
     @Column(
-            name = "product_name",
+            name = "product_id",
             nullable = false
     )
-    private String productName;
+    private Long productId;
 
     @Column(
             name = "quantity",
@@ -38,8 +38,8 @@ public class Order {
 
     public Order() {}
 
-    public Order(String productName, int quantity, String comment) {
-        this.productName = productName;
+    public Order(Long productId, int quantity, String comment) {
+        this.productId = productId;
         this.quantity = quantity;
         this.comment = comment;
     }

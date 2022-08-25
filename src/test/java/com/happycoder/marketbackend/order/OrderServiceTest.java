@@ -31,7 +31,7 @@ class OrderServiceTest {
 
     @Test
     public void checkIfCanAddOrder() {
-        Order order = new Order("Carrot", 20, null);
+        Order order = new Order(1L, 20, null);
         ArgumentCaptor<Order> captor = ArgumentCaptor.forClass(Order.class);
 
         underTest.saveOrder(order);
